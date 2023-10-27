@@ -1,13 +1,7 @@
 <template>
   <v-app>
-    <Header
-      @hamberger="hamberger"
-      :isOpen="isOpen"
-      @topScroll="topScroll"
-      :items="items"
-    ></Header>
-    <HumMenu :isOpen="isOpen" :items="items" @closeHam="closeHam"></HumMenu>
-    <Main :isOpen="isOpen"></Main>
+    <Header @topScroll="topScroll" :items="items"></Header>
+    <Main></Main>
     <Footer></Footer>
   </v-app>
 </template>
@@ -17,10 +11,6 @@
 </style>
 
 <script setup lang="ts">
-const isOpen = ref<boolean>(true);
-const hamberger = () => {
-  isOpen.value = !isOpen.value;
-};
 const topScroll = () => {
   window.scrollTo({
     top: 0,
@@ -41,8 +31,4 @@ const items = ref<{ title: string; link: string }[]>([
     link: "#access",
   },
 ]);
-
-const closeHam = () => {
-  isOpen.value = true;
-};
 </script>

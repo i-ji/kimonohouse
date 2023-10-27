@@ -1,8 +1,8 @@
 <template>
   <!-- <transition name="fade"> -->
-  <v-main class="bg-black" v-show="isOpen">
+  <v-main class="bg-black">
     <Hero></Hero>
-    <div class="max-w-4xl mx-auto">
+    <div class="max-w-3xl mx-auto">
       <Concept></Concept>
       <Price></Price>
       <Access></Access>
@@ -20,7 +20,3 @@
   opacity: 0;
 } */
 </style>
-
-<script setup lang="ts">
-const props = defineProps(["isOpen"]);
-</script>
