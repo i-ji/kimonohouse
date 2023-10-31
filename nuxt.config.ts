@@ -25,4 +25,7 @@ export default defineNuxtConfig({
   typescript: {
     strict: true,
   },
+  app: {
+    pageTransition: { name: "page", mode: "out-in" },
+  },
 });

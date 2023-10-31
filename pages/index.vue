@@ -27,6 +27,10 @@ const items = ref<{ title: string; link: string }[]>([
     link: "#items",
   },
   {
+    title: "Attention",
+    link: "#attention",
+  },
+  {
     title: "Access",
     link: "#access",
   },

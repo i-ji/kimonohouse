@@ -29,10 +29,10 @@
         <dt class="w-1/4 font-bold">定休日</dt>
         <dd class="w-3/4">なし（不定休）</dd>
       </div>
-      <div class="flex">
+      <div class="flex mb-2">
         <dt class="w-1/4 font-bold">アクセス</dt>
         <dd class="w-3/4">
-          京都市営バス　「千本中立売」下車徒歩１分
+          京都市営バス　「千本中立売」下車徒歩１分<br />
           ＊自転車・バイクは隣のイズミヤにお停めください。
         </dd>
       </div>
