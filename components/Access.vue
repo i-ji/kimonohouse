@@ -16,7 +16,7 @@
       referrerpolicy="no-referrer-when-downgrade"
       class="w-3/4 mx-auto"
     ></iframe>
-    <dl class="my-10 w-3/4 mx-auto">
+    <dl class="mt-10 w-3/4 mx-auto">
       <div class="flex mb-2">
         <dt class="w-1/4 font-bold">住所</dt>
         <dd class="w-3/4">〒602-8295 京都市上京区東石橋町25</dd>
@@ -31,11 +31,11 @@
       </div>
       <div class="flex mb-2">
         <dt class="w-1/4 font-bold">アクセス</dt>
-        <dd class="w-3/4">
-          京都市営バス　「千本中立売」下車徒歩１分<br />
-          ＊自転車・バイクは隣のイズミヤにお停めください。
-        </dd>
+        <dd class="w-3/4">京都市営バス　「千本中立売」下車徒歩１分</dd>
       </div>
     </dl>
+    <p class="text-center mt-4 text-sm">
+      ※場所は、『天Q まつ井食堂』となっております。
+    </p>
   </v-container>
 </template>

@@ -6,9 +6,9 @@
     >
       Items
     </h2>
-    <v-container class="flex flex-wrap gap-0">
+    <v-container class="flex flex-wrap justify-between">
       <v-card class="w-3/5 mx-auto pc:w-[47%] pc:mt-10">
-        <v-img src="../images/item1.jpg"></v-img>
+        <v-img src="../images/demo_item1.jpg"></v-img>
         <div class="flex justify-between items-center m-3">
           <div class="font-bold text-xl">アンティーク羽織</div>
           <div>¥500~</div>
@@ -18,7 +18,7 @@
         </v-card-text>
       </v-card>
       <v-card class="w-3/5 mx-auto mt-10 pc:w-[47%]">
-        <v-img src="../images/item2.jpg"></v-img>
+        <v-img src="../images/demo_item2.jpg"></v-img>
         <div class="flex justify-between items-center m-3">
           <div class="font-bold text-xl">アンティーク着物</div>
           <div>¥1,000~</div>
@@ -28,23 +28,23 @@
         </v-card-text>
       </v-card>
       <v-card class="w-3/5 mx-auto mt-10 pc:w-[47%]">
-        <v-img src="../images/item4.jpg"></v-img>
+        <v-img src="../images/demo_item3.jpg"></v-img>
         <div class="flex justify-between items-center m-3">
           <div class="font-bold text-xl">リメイク</div>
-          <div>¥1,000~</div>
+          <div>¥500~</div>
         </div>
         <v-card-text>
-          検品の際にほつれや汚れがあったものを、スカートやワンピースにリメイクして再利用してあります。
+          検品の際にほつれや汚れがあったものを、モンペやスカート、ワンピースにリメイクして再利用してあります。
         </v-card-text>
       </v-card>
       <v-card class="w-3/5 mx-auto mt-10 pc:w-[47%]">
-        <v-img src="../images/item3.jpg"></v-img>
+        <v-img src="../images/demo_item4.jpg"></v-img>
         <div class="flex justify-between items-center m-3">
           <div class="font-bold text-xl">グッズ・小物</div>
           <div>¥100~</div>
         </div>
         <v-card-text>
-          着物をリメイクする際に余った切れ端等で、シュシュや猫の首輪等の雑貨も作っています。
+          着物をリメイクする際に余った切れ端等で、シュシュやヘアバンド、猫の首輪等の雑貨も作っています。
         </v-card-text>
       </v-card>
     </v-container>

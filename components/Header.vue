@@ -8,7 +8,7 @@
     </template>
 
     <v-app-bar-title class="cursor-pointer pc:text-left" @click="topScroll"
-      >Ten-Q the KIMONO HOUSE</v-app-bar-title
+      >天Q 着物ハウス</v-app-bar-title
     >
     <template v-slot:append>
       <v-container class="d-none d-md-flex">

@@ -11,3 +11,7 @@ body {
     "Hiragino Mincho ProN", HG明朝E, "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
   scroll-behavior: smooth;
 }
+
+#shadow {
+  text-shadow: 1px 1px 4px #000;
+}

@@ -7,6 +7,9 @@
         :src="img"
         cover
       >
+        <div class="mt-72 ml-10 pc:text-left pc:w-1/2" id="shadow">
+          <span class="text-x tracking-[.2em]">Ten-Q the KIMONO HOUSE</span>
+        </div>
       </v-carousel-item>
       <v-sheet></v-sheet>
     </v-carousel>
@@ -16,9 +19,9 @@
 <script setup lang="ts">
 let index = ref<number>(0);
 const images = ref<string[]>([
-  "../images/hero1.jpg",
-  "../images/hero2.jpg",
-  "../images/hero3.jpg",
-  "../images/hero4.jpg",
+  "../images/demo_hero1.jpg",
+  "../images/demo_hero2.jpg",
+  "../images/demo_hero3.jpg",
+  "../images/demo_hero4.jpg",
 ]);
 </script>
