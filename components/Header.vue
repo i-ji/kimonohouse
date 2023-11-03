@@ -2,16 +2,16 @@
   <v-app-bar :elevation="3" class="text-center bg-black px-5">
     <template v-slot:prepend>
       <v-app-bar-nav-icon
-        class="d-md-none"
+        class="d-sm-none"
         @click.stop="drawer = !drawer"
       ></v-app-bar-nav-icon>
     </template>
 
-    <v-app-bar-title class="cursor-pointer pc:text-left" @click="topScroll"
+    <v-app-bar-title class="cursor-pointer tb:text-left" @click="topScroll"
       >天Q 着物ハウス</v-app-bar-title
     >
     <template v-slot:append>
-      <v-container class="d-none d-md-flex">
+      <v-container class="d-none d-sm-flex">
         <v-list lines="one" class="bg-black text-white mx-4 flex">
           <v-list-item
             v-for="item in items"

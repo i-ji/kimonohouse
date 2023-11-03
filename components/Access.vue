@@ -14,9 +14,9 @@
       allowfullscreen=""
       loading="lazy"
       referrerpolicy="no-referrer-when-downgrade"
-      class="w-3/4 mx-auto"
+      class="w-11/12 tb:w-3/4 mx-auto"
     ></iframe>
-    <dl class="mt-10 w-3/4 mx-auto">
+    <dl class="mt-10 tb:w-3/4 mx-auto">
       <div class="flex mb-2">
         <dt class="w-1/4 font-bold">住所</dt>
         <dd class="w-3/4">〒602-8295 京都市上京区東石橋町25</dd>

@@ -6,7 +6,7 @@
     >
       Attention
     </h2>
-    <ul class="w-2/3 mx-auto list-disc">
+    <ul class="w-5/6 tb:w-2/3 mx-auto list-disc">
       <li class="mb-3">決済は現金のみとなっております。</li>
       <li class="mb-3">表示価格は全て税込です。</li>
       <li class="mb-3">

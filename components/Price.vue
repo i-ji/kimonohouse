@@ -7,7 +7,7 @@
       Items
     </h2>
     <v-container class="flex flex-wrap justify-between">
-      <v-card class="w-3/5 mx-auto pc:w-[47%] pc:mt-10">
+      <v-card class="mx-auto tb:w-[47%] tb:mt-10">
         <v-img src="../images/demo_item1.jpg"></v-img>
         <div class="flex justify-between items-center m-3">
           <div class="font-bold text-xl">アンティーク羽織</div>
@@ -17,7 +17,7 @@
           シルク製にこだわったアンティークな羽織です。男女向けの多彩なデザインがあり、中には動物柄や浮世絵柄など珍しい柄のものもあります。
         </v-card-text>
       </v-card>
-      <v-card class="w-3/5 mx-auto mt-10 pc:w-[47%]">
+      <v-card class="mx-auto mt-10 tb:w-[47%]">
         <v-img src="../images/demo_item2.jpg"></v-img>
         <div class="flex justify-between items-center m-3">
           <div class="font-bold text-xl">アンティーク着物</div>
@@ -27,7 +27,7 @@
           リメイク用の着物から実際に着れるものまで幅広く取り扱っています。リメイク用は500円、着用は1000円となっております。
         </v-card-text>
       </v-card>
-      <v-card class="w-3/5 mx-auto mt-10 pc:w-[47%]">
+      <v-card class="mx-auto mt-10 tb:w-[47%]">
         <v-img src="../images/demo_item3.jpg"></v-img>
         <div class="flex justify-between items-center m-3">
           <div class="font-bold text-xl">リメイク</div>
@@ -37,7 +37,7 @@
           検品の際にほつれや汚れがあったものを、モンペやスカート、ワンピースにリメイクして再利用してあります。
         </v-card-text>
       </v-card>
-      <v-card class="w-3/5 mx-auto mt-10 pc:w-[47%]">
+      <v-card class="mx-auto mt-10 tb:w-[47%]">
         <v-img src="../images/demo_item4.jpg"></v-img>
         <div class="flex justify-between items-center m-3">
           <div class="font-bold text-xl">グッズ・小物</div>

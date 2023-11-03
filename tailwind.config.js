@@ -12,6 +12,7 @@ export default {
     extend: {},
     screens: {
       pc: "960px",
+      tb: "600px",
     },
   },
   plugins: [],
